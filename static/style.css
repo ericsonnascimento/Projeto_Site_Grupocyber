@@ -101,3 +101,25 @@ section#inicio{
     width: 100%;
     height: 100vh; /* "100vh" independente do tamando da sua imagem ela ocupará 100% da tela */
 }
+
+section#inicio h2{
+    font-size: 6rem;
+}
+
+section#inicio span#subtitle{
+    margin-right: 8rem;
+    font-size: 1.5rem;
+}
+
+.text-shadow{ /*dessa forma sem filtrar o caminho conseguimos usar este id=text-shadow no site inteiro */
+    text-shadow: 4px 4px 10px #000;
+}
+
+section#inicio div#arraste{
+    width: 9rem; /* subimos um pouco o nome pra melhorar a estetica*/
+}
+
+section#inicio div#arraste a{
+    text-decoration: none;
+    color: #fff;
+}

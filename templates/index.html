@@ -57,8 +57,17 @@
         </nav>
     </aside>
     <main id="main">
-        <section id="inicio" class="row m-0 p-0"><!-- class bootstrap "row" ocupa 1 linha, "m-0" margem 0, "p-0" padding 0 -->
-
+        <section id="inicio" class="row m-0 p-0"><!-- class bootstrap "row" ocupa 1 linha, "m-0" margem 0, "p-0" padding 0 -->  
+            <div class="col-md-7 d-flex justify-content-center align-items-center flex-column"><!--d-flex criar flexbox (sem ele o objeto não se move), justify centraliza os itens na tela, align centraliza os itens na tela, flex-column transforma em coluna e joga spam pra baixo do h2-->
+                <h2 class="text-white text-shadow">GrupoCyber</h2><!--text-white é do bootstrap texto para cor branca e text-shadow é a class pra mexer no style.css-->
+                <span id="subtitle" class="text-white text-shadow">Assistência Técnica em Informática</span>
+            </div>
+            <div class="col-md-15 d-flex justify-content-end align-items-end">
+                <div id="arraste" class="d-flex align-items-center">
+                    <i class="bi bi-arrow-down text-white pe-2 fs-2" aria-hidden="true"></i><!--pe-2 é o pedding-end a direita de 2, fs-2 font-size de 2 -->
+                    <a href="">Arraste para mais</a>
+                </div>
+            </div>
         </section>
     </main>
 
